@@ -1,0 +1,22 @@
+ #include <stdio.h>
+ int main (){
+     int a,b,sum, mul,sub,divd;
+     printf("Arthemetic operation\n");
+     
+     printf("enter the value:\n");
+     scanf("%d",&a);
+     
+     printf("enter the value:\n");
+     scanf("%d",&b);
+     
+     sum =a+b;
+     mul =a*b;
+     sub =a-b;
+     divd =a/b;
+     
+     printf("the sum of two numbers %d \n",sum);
+     printf("the mul of two numbers %d \n",mul);
+     printf("the sub of two numbers %d \n",sub);
+     printf("the divd of two numbers %d \n",divd);
+     return 0;
+ }
