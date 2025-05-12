@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+    int a =5;
+    int b=4;
+    int tempt;
+    
+    printf("Before swap:\n");
+    printf("a=%d,b=%d,\n\n",a,b);
+    
+    tempt=a;
+    a=b;
+    b= tempt;
+     printf("After Swap:\n");
+     printf("a=%d,b=%d,\n\n",a,b);
+      
+      return 0 ;
+      
+}
