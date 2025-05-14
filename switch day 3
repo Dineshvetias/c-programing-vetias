@@ -1,0 +1,12 @@
+#include<studio.h>
+#include<conio.h>
+int main(){
+switch(31){
+case 11+2:printf("A);
+break;
+defalut:printf("Vet mess");
+break;
+case 1+2:printf("B");
+}
+retrun 0;
+}
